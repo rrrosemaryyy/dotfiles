@@ -1,0 +1,32 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12.0,
+	"highlight_line": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		72
+	],
+	"save_on_focus_lost": true,
+	"show_full_path": true,
+	"sublimelinter_gutter_marks": true,
+	"sublimelinter_mark_style": "underline",
+	"sublimelinter_popup_errors_on_save": true,
+	"tab_size": 2,
+	"trailing_spaces_hightlight_color": "trailing.space",
+	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
