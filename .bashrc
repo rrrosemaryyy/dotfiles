@@ -18,9 +18,6 @@ function customize_command_prompt
 customize_command_prompt
 
 alias mudlook='echo A wimpy monster stands in front of you. Exits: N W S'
-alias sshuc='ssh madebyuppercut_c@216.70.98.58'
-alias sshrs='ssh rcktshp_com@205.186.129.129'
-alias scphelp='echo scp -r site madebyuppercut_c@216.70.98.58:/var/www/vhosts/madebyuppercut.com/test/test'
 alias tarhelp='echo tar -xvf [file]'
 alias sipshelp='echo print dimensions: sips -g pixelWidth -g pixelHeight [filename]; echo resize: --resampleWidth [num] [filename]'
 alias rlod='echo ಠ_ಠ'
@@ -65,14 +62,6 @@ alias bau="vim ~/.bashrc;source ~/.bashrc"
 # uppercut
 alias ssh-jenkins-uppercut='ssh ubuntu@ci.fairgoods.com -i ~/.ssh/github/id_rsa'
 
-# confab
-alias ssh-confab='ssh deployer@www.confab.co'
-alias ssh-confab-mo='ssh deployer@mo.confab.co'
-alias ssh-confab-qa='ssh deployer@qa.confab.co'
-alias open-confab-monit='open http://www.confab.co:2812'
-alias open-confab-mo='open http://mo.confab.co/'
-alias open-confab-qa='open http://qa.confab.co'
-
 # fairgoods
 alias devlog='heroku logs --tail --app fair-goods-development'
 alias devconsole='heroku run rails c --app fair-goods-development'
@@ -82,13 +71,8 @@ alias productionlog='heroku logs --tail --app fair-goods-production'
 alias productionconsole='heroku run rails c --app fair-goods-production'
 #alias jenkins='firefox http://ci.fairgoods.com/'
 
-# silktoad
-alias deploysilktoad='ssh deploy@209.20.86.220'
-alias deploysilkroad='ssh deploy@209.20.86.220'
-
 # pockethomes
 alias pockethomes="cd ~/Projects/2014/PocketHomes/_gitsource/pockethomes"
-alias sshph="ssh ubuntu@162.244.228.61"
 
 #export PATH="./bin:$PATH"
 export EDITOR=subl
