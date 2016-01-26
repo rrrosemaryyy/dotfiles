@@ -26,53 +26,14 @@ alias img='sips -g pixelWidth -g pixelHeight *'
 alias androidvm='/Users/rosemary/Dev\ Tools/android-sdk-macosx/tools/android ; exit;'
 alias ll="ls -alh"
 alias filezillasucks="rm /Users/rsanchez/.filezilla/filezilla.xml"
-alias fairgoods="cd ~/Projects/2012/Fairgoods/_gitsource/fair_goods"
-alias fairgoods_backup='rake db:backup["production"]'
-alias fairgoods_restore='rake db:restore'
-alias parley="cd ~/Projects/2013/Confab/_gitsource/parley"
-alias confab="cd ~/Projects/2013/Confab/_gitsource/confab"
-alias newalta="cd ~/Projects/2013/NewAlta/_gitsource/NewAltaWaitTime"
-alias silktoad="cd ~/Projects/2013/SilkRoad/_gitsource/silktoad/"
-alias silkroad="cd ~/Projects/2013/SilkRoad/_gitsource/silktoad/"
-alias candid="cd ~/Projects/2013/CandidChristmas/_gitsource/ChristmasCards"
-alias trotter="cd ~/Projects/2013/TrotterandMorton/_gitsource/trotter_and_morton"
-alias nourish="cd ~/Projects/2013/NourishOrganic/_gitsource/nourishusda"
-alias daystar="cd ~/Projects/2014/Daystar/_gitsource/daystar"
-alias cja="cd ~/Projects/2015/CJA/_gitsource/cja"
 
 # PostgreSQL
 alias pg-start='pg_ctl start -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
 alias pg-stop='pg_ctl stop -D /usr/local/var/postgres -s -m fast'
 
-#
-alias devlog='heroku logs --tail --app fair-goods-development'
-alias devconsole='heroku run rails c --app fair-goods-development'
-alias devbash='heroku run bash --app fair-goods-development'
-alias staginglog='heroku logs --tail --app fair-goods-staging'
-alias stagingconsole='heroku run rails c --app fair-goods-staging'
-alias stagingbash='heroku run bash --app fair-goods-staging'
-alias productionlog='heroku logs --tail --app fair-goods-production'
-alias productionconsole='heroku run rails c --app fair-goods-production'
-alias productionbash='heroku run bash --app fair-goods-production'
-
 alias git-undo='git reset --soft HEAD^'
 
 alias bau="vim ~/.bashrc;source ~/.bashrc"
-
-# uppercut
-alias ssh-jenkins-uppercut='ssh ubuntu@ci.fairgoods.com -i ~/.ssh/github/id_rsa'
-
-# fairgoods
-alias devlog='heroku logs --tail --app fair-goods-development'
-alias devconsole='heroku run rails c --app fair-goods-development'
-alias staginglog='heroku logs --tail --app fair-goods-staging'
-alias stagingconsole='heroku run rails c --app fair-goods-staging'
-alias productionlog='heroku logs --tail --app fair-goods-production'
-alias productionconsole='heroku run rails c --app fair-goods-production'
-#alias jenkins='firefox http://ci.fairgoods.com/'
-
-# pockethomes
-alias pockethomes="cd ~/Projects/2014/PocketHomes/_gitsource/pockethomes"
 
 #export PATH="./bin:$PATH"
 export EDITOR=subl
